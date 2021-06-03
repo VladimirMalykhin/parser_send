@@ -34,8 +34,6 @@ def transfer_url(url,short_url):
     urls.base_url = short_url
 
 
-
-
 def crawl(url,short_url):
     urls = StackoverflowSpider()
     urls.get_url(url,short_url)
